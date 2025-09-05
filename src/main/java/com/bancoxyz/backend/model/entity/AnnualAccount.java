@@ -1,5 +1,6 @@
 package com.bancoxyz.backend.model.entity;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,9 +21,14 @@ public class AnnualAccount {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-  private Integer accountId;
+  @Column(name = "account_id")  
+  private String accountId;
+  
   private String date;
+
+  @Column(name = "transaction_type")  
   private String transactionType;
+
   private Integer amount;
   private String transactionDescription;
 
