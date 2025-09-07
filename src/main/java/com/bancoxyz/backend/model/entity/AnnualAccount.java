@@ -24,12 +24,15 @@ public class AnnualAccount {
   @Column(name = "account_id")  
   private String accountId;
   
+  @Column(name = "transaction_date")
   private String date;
 
   @Column(name = "transaction_type")  
   private String transactionType;
 
   private Integer amount;
+
+  @Column(name = "transaction_description")  
   private String transactionDescription;
 
 }
