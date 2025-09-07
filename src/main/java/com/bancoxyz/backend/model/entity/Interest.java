@@ -27,7 +27,7 @@ public class Interest {
   @Column(name = "client_name")
   private String clientName;
   
-  private Integer amount;
+  private Integer balance;
 
   @Column(name = "client_age")
   private Integer clientAge;
