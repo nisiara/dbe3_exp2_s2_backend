@@ -1,9 +1,9 @@
-# Desarrollo Backend 3 | Exp2-S1
+# Desarrollo Backend 3 | Exp2-S2
 
 
 ## Objetivo del proyecto
 
-En este proyecto de la semana 1 de la experiencia 2 implementa un Backend for Frontend (BFF) con Spring Boot.
+En este proyecto de la semana 2 de la experiencia 2 implementa un Backend for Frontend (BFF) con Spring Boot.
 
 
 Este repositorio en particular representa el Backend principal al cual se conectará el BFF.
@@ -44,4 +44,4 @@ curl -X GET http://localhost:8090/backend/api/transaction
 
 
 ## 🔗 Link
-[![Github](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nisiara/dbe3_exp2_s1_main_backend.git)
+[![Github](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nisiara/dbe3_exp2_s2_backend.git)
