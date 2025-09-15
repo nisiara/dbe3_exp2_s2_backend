@@ -9,6 +9,13 @@ En este proyecto de la semana 2 de la experiencia 2 implementa un Backend for Fr
 Este repositorio en particular representa el Backend principal al cual se conectará el BFF.
 
 
+## 🧩 BBFs
+[BFF Desktop](https://github.com/nisiara/dbe3_exp2_s2_bff_desktop.git)
+
+[BFF Mobile](https://github.com/nisiara/dbe3_exp2_s2_bff_mobile.git)
+
+[BFF ATM](https://github.com/nisiara/dbe3_exp2_s2_bff_atm.git)
+
 ## 🛠️ Requisitos
 - Java 21
 - Maven 4.0
@@ -29,17 +36,17 @@ Este repositorio en particular representa el Backend principal al cual se conect
 
 #### Endpoint para Cuentas Anuales (Retorna solo el id de la cuenta)
 ```bash
-curl -X GET http://localhost:8090/backend/api/annual-account
+curl -X GET http://localhost:8080/backend/api/annual-account
 ```
 
 #### Endpoint para Intereses
 ```bash
-curl -X GET http://localhost:8090/backend/api/interest
+curl -X GET http://localhost:8080/backend/api/interest
 ```
 
 #### Endpoint Transacciones
 ```bash
-curl -X GET http://localhost:8090/backend/api/transaction
+curl -X GET http://localhost:8080/backend/api/transaction
 ```
 
 
